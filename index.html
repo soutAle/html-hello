@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+       <!-- header (portada) + Div con clase container + h1 (titulo de la portada) + i para insertar icono de la pagina  -->
+       <header>
+
+        <div class="container">
+            <h1><i class="fa-brands fa-instagram"></i>instagram</h1>
+        </div>
+    </header>
+
+    <!-- main del contenido  -->
+    <main>
+
+        <!-- deberia modificar el nombre de la clase para que no interfiera con el estilo de la portada ?  -->
+        <div class="container"> 
+
+            <!-- div clase post, dentro esta el contenido del post (divs clase header, footer, cabecera de la foto, fecha e imagen) -->
+            <div class="post">
+
+                <div class="post-header">
+                    <h2>mi primera foto</h2>
+                    <span>12/14</span>
+                </div>
+
+                <div>
+                    <img src="https://picsum.photos/600/300?random=1">
+                </div>
+
+                <!-- div clase post-footer, aqui tenemos los iconos de like, comentarios y compartir etc..-->
+                <div class="post-footer">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular  fa-paper-plane"></i>
+                    <div>
+                        <strong><p>0 likes</p></strong>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="comentarios...">
+                    </div>
+                    <p>Estoy aprendiendo a programar HTML+CSS</p>
+                </div>
+                
+
+            </div>
+            <div class="post">
+
+                <div class="post-header">
+                    <h2>La segunda foto</h2>
+                    <span>12/14</span>
+                </div>
+
+                <div>
+                    <img src="https://picsum.photos/600/300?random=2">
+                </div>
+
+                <div class="post-footer">
+                    <i class="fa-regular fa-heart"></i>
+                        <i class="fa-regular fa-comment"></i>
+                        <i class="fa-regular  fa-paper-plane"></i>
+
+                        <div>
+                            <strong><p>1 likes</p></strong>
+                        </div>
+                        <div>
+                            <input type="text" placeholder="comentarios...">
+                        </div>
+                    <p>Estoy aprendiendo a programar HTML+CSS</p>
+                </div>
+
+            </div>
+            <div class="post">
+
+                <div class="post-header">
+                    <h2>La Tercera foto</h2>
+                    <span>12/14</span>
+                </div>
+
+                <div>
+                    <img src="https://picsum.photos/600/300?random=3">
+                </div>
+
+                <div class="post-footer">
+                    <div>
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-regular fa-comment"></i>
+                        <i class="fa-regular fa-paper-plane"></i>
+
+                    </div>
+                    <div>
+                        <strong><p>2 likes</p></strong>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="comentarios...">
+                    </div>
+                    <p>Estoy aprendiendo a programar HTML+CSS</p>
+                </div>
+
+            </div>
+        </div>
+    </main>
+</body>
+</html>
